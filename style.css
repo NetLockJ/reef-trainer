@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.reef {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#random {
+    font-size: xx-large;
+    font-family: monospace;
+}
+
+#time {
+    font-size: xx-large;
+    font-family: monospace;
+}
+
+#streak {
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.green {
+    color: #56ea16;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+.white {
+    color: white;
+}
+
+rect {
+    pointer-events: all;
+    transition: 0.3s ease-in;
+}

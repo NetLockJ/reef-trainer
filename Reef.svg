@@ -1,0 +1,55 @@
+<svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Reef">
+<rect width="550" height="550" fill="black"/>
+<g id="KL">
+<g id="Source Group">
+<rect id="K" x="41.5518" y="369.986" width="120" height="20" rx="5" transform="rotate(-30 41.5518 369.986)" fill="#9E23B2"/>
+<rect id="L" x="66.4203" y="413.059" width="120" height="20" rx="5" transform="rotate(-30 66.4203 413.059)" fill="#9E23B2"/>
+<rect id="KC" x="116.715" y="320.513" width="30" height="76" rx="3" transform="rotate(60 116.715 320.513)" fill="#D9D9D9"/>
+<rect id="LC" x="141.715" y="363.814" width="30" height="76" rx="3" transform="rotate(60 141.715 363.814)" fill="#D9D9D9"/>
+</g>
+</g>
+<g id="IJ">
+<g id="Source Group_2">
+<rect id="I" x="76.3015" y="120.486" width="120" height="20" rx="5" transform="rotate(30 76.3015 120.486)" fill="#9E23B2"/>
+<rect id="J" x="51.433" y="163.559" width="120" height="20" rx="5" transform="rotate(30 51.433 163.559)" fill="#9E23B2"/>
+<rect id="IC" x="156.728" y="160.843" width="30" height="76" rx="3" transform="rotate(120 156.728 160.843)" fill="#D9D9D9"/>
+<rect id="JC" x="131.728" y="204.144" width="30" height="76" rx="3" transform="rotate(120 131.728 204.144)" fill="#D9D9D9"/>
+</g>
+</g>
+<g id="GH">
+<g id="Source Group_3">
+<rect id="G" x="309.75" y="25.8297" width="120" height="20" rx="5" transform="rotate(90 309.75 25.8297)" fill="#9E23B2"/>
+<rect id="H" x="260.013" y="25.8297" width="120" height="20" rx="5" transform="rotate(90 260.013 25.8297)" fill="#9E23B2"/>
+<rect id="GC" x="315.013" y="115.659" width="30" height="76" rx="3" transform="rotate(-180 315.013 115.659)" fill="#D9D9D9"/>
+<rect id="HC" x="265.013" y="115.659" width="30" height="76" rx="3" transform="rotate(-180 265.013 115.659)" fill="#D9D9D9"/>
+</g>
+</g>
+<g id="EF">
+<g id="Source Group_4">
+<rect id="E" x="508.448" y="180.674" width="120" height="20" rx="5" transform="rotate(150 508.448 180.674)" fill="#9E23B2"/>
+<rect id="F" x="483.58" y="137.6" width="120" height="20" rx="5" transform="rotate(150 483.58 137.6)" fill="#9E23B2"/>
+<rect id="EC" x="433.285" y="230.147" width="30" height="76" rx="3" transform="rotate(-120 433.285 230.147)" fill="#D9D9D9"/>
+<rect id="FC" x="408.285" y="186.845" width="30" height="76" rx="3" transform="rotate(-120 408.285 186.845)" fill="#D9D9D9"/>
+</g>
+</g>
+<g id="CD">
+<g id="Source Group_5">
+<rect id="C" x="473.698" y="430.174" width="120" height="20" rx="5" transform="rotate(-150 473.698 430.174)" fill="#9E23B2"/>
+<rect id="D" x="498.567" y="387.1" width="120" height="20" rx="5" transform="rotate(-150 498.567 387.1)" fill="#9E23B2"/>
+<rect id="CC" x="393.272" y="389.817" width="30" height="76" rx="3" transform="rotate(-60 393.272 389.817)" fill="#D9D9D9"/>
+<rect id="DC" x="418.272" y="346.516" width="30" height="76" rx="3" transform="rotate(-60 418.272 346.516)" fill="#D9D9D9"/>
+</g>
+</g>
+<g id="AB">
+<g id="Source Group_6">
+<rect id="A" x="239.263" y="523.83" width="120" height="20" rx="5" transform="rotate(-90 239.263 523.83)" fill="#9E23B2"/>
+<rect id="B" x="289" y="523.83" width="120" height="20" rx="5" transform="rotate(-90 289 523.83)" fill="#9E23B2"/>
+<rect id="AC" x="234" y="434" width="30" height="76" rx="3" fill="#D9D9D9"/>
+<rect id="BC" x="284" y="434" width="30" height="76" rx="3" fill="#D9D9D9"/>
+</g>
+</g>
+<path id="Polygon 1" d="M103.057 279.828C101.271 276.734 101.271 272.922 103.057 269.828L184.784 128.274C186.57 125.18 189.871 123.274 193.444 123.274L356.897 123.274C360.469 123.274 363.771 125.18 365.557 128.274L447.284 269.828C449.07 272.922 449.07 276.734 447.284 279.828L365.557 421.383C363.771 424.477 360.469 426.383 356.897 426.383L193.444 426.383C189.871 426.383 186.57 424.477 184.784 421.383L103.057 279.828Z" fill="#626262"/>
+<path id="Polygon 2" d="M128.057 279.828C126.271 276.734 126.271 272.922 128.057 269.828L197.284 149.924C199.07 146.83 202.371 144.924 205.944 144.924L344.397 144.924C347.969 144.924 351.271 146.83 353.057 149.924L422.284 269.828C424.07 272.922 424.07 276.734 422.284 279.828L353.057 399.732C351.271 402.826 347.969 404.732 344.397 404.732L205.944 404.732C202.371 404.732 199.07 402.826 197.284 399.732L128.057 279.828Z" fill="#D9D9D9" fill-opacity="0.17"/>
+</g>
+</svg>
