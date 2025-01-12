@@ -81,6 +81,15 @@ function guessCoral(event) {
       correct++;
       randomPost = getRandomPost();
       random.innerHTML = randomPost;
+      random.classList = "green";
+      setTimeout(() => {
+        random.classList = "white";
+      }, 500);
+    } else {
+      random.classList = "red";
+      setTimeout(() => {
+        random.classList = "white";
+      }, 500);
     }
 
     updateStreak();
