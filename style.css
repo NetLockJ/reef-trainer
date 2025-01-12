@@ -17,6 +17,13 @@ body {
     flex-direction: column;
 }
 
+.setting {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: monospace;
+}
+
 #random {
     font-size: xx-large;
     font-family: monospace;

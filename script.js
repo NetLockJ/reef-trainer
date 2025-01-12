@@ -1,8 +1,17 @@
 const timeDisplay = document.getElementById("time");
 const streak = document.getElementById("streak");
 const random = document.getElementById("random");
+const continuous = document.getElementById("continuous");
+const voice = document.getElementById("voice");
 
 const posts = "ABCDEFGHIJKL";
+
+if ('speechSynthesis' in window) {
+  //supported
+}else{
+   alert("Sorry, your browser doesn't support text to speech!");
+ }
+ 
 
 const phonetic = {
     "A": "Alfa",
@@ -97,7 +106,7 @@ function formatDisplayTime(time) {
 }
 
 function guessCoral(event) {
-  if (correct > 19) {
+  if (correct > 19 && !continuous.checked) {
     clearInterval(timerInterval);
     timerInterval = null;
   } else {
@@ -114,6 +123,13 @@ function guessCoral(event) {
       randomPost = getRandomPost();
       random.innerHTML = phonetic[randomPost];
       random.classList = "green";
+
+      if(voice.checked) {
+        var msg = new SpeechSynthesisUtterance();
+        msg.text = phonetic[randomPost];
+        window.speechSynthesis.speak(msg);
+      }
+
       setTimeout(() => {
         random.classList = "white";
       }, 500);
