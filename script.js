@@ -3,8 +3,38 @@ const streak = document.getElementById("streak");
 const random = document.getElementById("random");
 
 const posts = "ABCDEFGHIJKL";
+
+const phonetic = {
+    "A": "Alfa",
+    "B": "Bravo",
+    "C": "Charlie",
+    "D": "Delta",
+    "E": "Echo",
+    "F": "Foxtrot",
+    "G": "Golf",
+    "H": "Hotel",
+    "I": "India",
+    "J": "Juliett",
+    "K": "Kilo",
+    "L": "Lima",
+    "M": "Mike",
+    "N": "November",
+    "O": "Oscar",
+    "P": "Papa",
+    "Q": "Quebec",
+    "R": "Romeo",
+    "S": "Sierra",
+    "T": "Tango",
+    "U": "Uniform",
+    "V": "Victor",
+    "W": "Whiskey",
+    "X": "X-ray",
+    "Y": "Yankee",
+    "Z": "Zulu"
+  }
+
 var currentPost = null;
-var randomPost = getRandomPost();
+var randomPost = phonetic[getRandomPost()];
 var correct = 0;
 var guesses = 0;
 timerInterval = null;
@@ -50,10 +80,10 @@ function startTimer() {
 
       timeDisplay.innerHTML = formatDisplayTime(timePassed);
 
-      if (timePassed < 15) {
+      if (timePassed < 12) {
         timeDisplay.classList = "green";
         void timeDisplay.offsetWidth;
-      } else if (timePassed < 35) {
+      } else if (timePassed < 25) {
         timeDisplay.classList = "orange";
       } else {
         timeDisplay.classList = "red";
@@ -73,14 +103,16 @@ function guessCoral(event) {
   } else {
     var post = event.target.id;
 
+    console.log(post, randomPost)
+
     post += post.length == 2 ? "" : "C";
 
     guesses++;
 
-    if (post.substring(0, 1) == randomPost) {
+    if (post.substring(0, 1) == randomPost.substring(0,1)) {
       correct++;
       randomPost = getRandomPost();
-      random.innerHTML = randomPost;
+      random.innerHTML = phonetic[randomPost];
       random.classList = "green";
       setTimeout(() => {
         random.classList = "white";
